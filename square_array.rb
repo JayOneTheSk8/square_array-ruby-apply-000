@@ -1,6 +1,6 @@
 def square_array(array)
   y = []
-  array.collect do|number|
+  array.each do|number|
     x = number * number
     y << x
   end
