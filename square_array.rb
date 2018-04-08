@@ -4,4 +4,5 @@ def square_array(array)
     x = number ** 2
     y << x
   end
+  return y
 end
